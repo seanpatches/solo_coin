@@ -1,8 +1,25 @@
-.hidden {
-    visibility: hidden;
+body{
+    background-color: #07A8CC;
 }
 
-img {
-    height: 400px;
+header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
+img{
+    margin-left: 40%;
+    width: 250px;
+    height: 250px;
+}
+
+button{
+    margin-left: 2%;
+    position: absolute;
+    height: 15%;
+    width: 15%;
+}
+
+input{
+    margin-left: 40%;
+}

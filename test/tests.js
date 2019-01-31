@@ -2,13 +2,15 @@ const test = QUnit.test;
 
 
 
-test('If number is below .5 then show a cat', function(assert){
-    const result = catOrDog(.2); 
+
+test('if the number is <.5, show cat', function(assert){
+    const result = catOrDog(.2);
     assert.equal(result, 'cat');
 });
 
-test('If number is >= .5 then show a dog', function(assert){
-    const result = catOrDog(.7); 
+test('if the number is >=.5, show dawg', function(assert){
+    const result = catOrDog(.6);
     assert.equal(result, 'dog');
 });
+
 

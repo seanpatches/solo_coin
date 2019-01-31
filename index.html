@@ -3,39 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Dog</title>
     <link rel="stylesheet" type="text/css" href="main.css">
-    <title>Dog or Cat</title>
-
 </head>
 <body>
     <header>
-    <h1>Cat or Dog</h1>
+        <h1>Cat Dog</h1>
+        <h2 id="status"> Win or Lose? </h2>
+        Wins:<h3 id="win-count"> 0 </h3>
+        Losses:<h3 id="loss-count"> 0 </h3>
     </header>
+
     <main>
-        <section>
-            <h2 id="status">Did you win?</h2>
-           Wins:<span id="win-count">0</span>
-           Losses:<span id="loss-count">0</span>
-            
-        </section>
-
-        <section id="image-container">
-            <img id="animal-image" class="hidden" src="" alt="picture of a dog, or cat">
-        </section>
-
-        <section>
-            <form id="flip-form">
-                <label>
-                    <input type="radio" name="animal" value="dog" required checked>Dog
-                </label>
-                <label>
-                    <input type="radio" name="animal" value="cat" required>Cat
-                </label>
-                <button>BUTTON!</button>
-            </form>
-        </section>
-
+            <section id="image-container">
+                <img id="animal-image" src="./assets/heydaddy.jpg" alt="Hey, Daddy." >
+            </section>
+        <form id="flip-form">
+            <label>
+            <input type="radio" name="animalchoice" value="dog" required checked>Dog
+            </label>
+            <br>
+            <label>
+            <input type="radio" name="animalchoice" value="cat" required>Cat
+            </label>
+            <button> Push me, I dare you</button>
+        </form>
     </main>
-    <script type="module" src="./src/main.js"></script>
+
+    <script type="module" src="src/main.js" ></script>
 </body>
 </html>
